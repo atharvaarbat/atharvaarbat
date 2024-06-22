@@ -5,6 +5,7 @@ import ThemeSwitch from "./theme";
 import Grid from "@/components/Grid";
 import AuroraBackgroundDemo from "@/components/AuroraBg";
 import Hero from "@/components/hero";
+import {WobbleCardDemo} from '@/components/ProjectGrid'
 // import {BackgroundBeams} from "@/components/ui/background-beams";
 const navItems = [
   {
@@ -35,6 +36,7 @@ export default function Home() {
          
         {/* <BackgroundBeams /> */}
         <Grid/>
+        <WobbleCardDemo/>
         </AuroraBackgroundDemo>
       </div>
     </main>
