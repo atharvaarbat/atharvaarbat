@@ -5,15 +5,20 @@ import { WobbleCard } from "./ui/wobble-card";
 
 export function WobbleCardDemo() {
     return (
-        <section className="max-w-7xl mx-auto w-full">
-            <div className="grid grid-cols-1 md:grid-cols-2">
+        <section className="max-w-7xl mx-auto w-full p-4 lg:p-0 ">
+            <div className="grid grid-cols-1 justify-between md:grid-cols-2">
                 <h1 className="flex gap-4 text-4xl my-10 font-bold text-start bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-                    <img src='/atharva_hi.png' className="w-20"/>
-                    A small showcase of my  <br /> latest projects
+                    <img src='/atharva_hi.png' className="w-20 h-20" />
+                    A small showcase of my favourite projects
                 </h1>
-                <button className="text-end">
-                    View All
-                </button>
+                <div className="flex items-center justify-center md:justify-end mb-4 md:mb-0">
+                    <button
+                        className="bg-neutral-800 hover:bg-neutral-700 text-neutral-100 font-semibold py-2 px-4 rounded-full cursor-pointer"
+                    >
+                        See More
+                    </button>
+                </div>
+
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8  ">

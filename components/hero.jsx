@@ -33,12 +33,8 @@ export const Hero = () => {
         </h1>
           
         
-        <p className="mt-2  text-lg text-gray-300 dark:text-gray-500">
-          Full Stack Developer and Machine Learning Enthusiast
-          <br />
-          I build beautiful and functional websites and applications using
-          modern technologies. I also have a passion for machine learning and
-          data analysis.
+        <p className="mt-2 italic font-extralight   text-2xl text-gray-300 dark:text-gray-500">
+          I'm seriously good at web development.
         </p>
         {/* <div className="flex mt-8 space-x-4">
           <span className="flex items-center space-x-2">

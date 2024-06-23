@@ -1,6 +1,6 @@
 
 import FloatingNav from "../components/ui/floating-navbar";
-import { HomeIcon, MessageCircle, User2Icon } from "lucide-react";
+import { HomeIcon, MessageCircle, TestTube2, TextSelect, User2Icon } from "lucide-react";
 import ThemeSwitch from "./theme";
 import Grid from "@/components/Grid";
 import AuroraBackgroundDemo from "@/components/AuroraBg";
@@ -14,9 +14,14 @@ const navItems = [
     icon: <HomeIcon className="h-4 w-4 text-neutral-500 dark:text-white" />,
   },
   {
-    name: "About",
+    name: "Projects",
     link: "/about",
-    icon: <User2Icon className="h-4 w-4 text-neutral-500 dark:text-white" />,
+    icon: <TestTube2 className="h-4 w-4 text-neutral-500 dark:text-white" />,
+  },
+  {
+    name: "Resume",
+    link: "/about",
+    icon: <TextSelect className="h-4 w-4 text-neutral-500 dark:text-white" />,
   },
   {
     name: "Contact",
@@ -36,8 +41,9 @@ export default function Home() {
          
         {/* <BackgroundBeams /> */}
         <Grid/>
-        <WobbleCardDemo/>
         </AuroraBackgroundDemo>
+
+        <WobbleCardDemo/>
       </div>
     </main>
   );

@@ -34,6 +34,7 @@ export const FlipWords = ({
       onExitComplete={() => {
         setIsAnimating(false);
       }}
+      
     >
       <motion.div
         initial={{
