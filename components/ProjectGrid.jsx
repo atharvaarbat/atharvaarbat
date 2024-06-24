@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { WobbleCard } from "./ui/wobble-card";
+import Link from "next/link";
 
 export function WobbleCardDemo() {
     return (
@@ -12,11 +13,14 @@ export function WobbleCardDemo() {
                     A small showcase of my favourite projects
                 </h1>
                 <div className="flex items-center justify-center md:justify-end mb-4 md:mb-0">
+                    <Link href={"/projects"}>
                     <button
                         className="bg-neutral-800 hover:bg-neutral-700 text-neutral-100 font-semibold py-2 px-4 rounded-full cursor-pointer"
                     >
                         See More
                     </button>
+                    </Link>
+                   
                 </div>
 
             </div>
