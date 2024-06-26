@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "next-themes";
+import { ThemeProvider} from "next-themes";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,12 +14,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className="bg-black">
       <head>
       <link rel="icon" href="/Aa..svg" sizes="any" />
       </head>
-      <body className={inter.className}>
-        <ThemeProvider attribute="class">{children}</ThemeProvider>
+      <body className={inter.className + " bg-black text-white"}>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>{children}</ThemeProvider>
         </body>
     </html>
   );
