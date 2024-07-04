@@ -75,7 +75,32 @@ export default function Page() {
                 </div>
               </div>
             </Link>
+            <Link href={'/projects/rytin'}>
+              <div className='row-span-2 col-span-1 rounded-3xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-8 dark:bg-black  bg-white  justify-end flex flex-col  min-h-fit'
+                style={{ backgroundImage: 'linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.1)), url(/project-covers/rytin.jpeg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                <div className='group-hover/bento:translate-x-2 transition duration-200'>
 
+                  <div className='font-sans font-bold  mt-28 text-xl truncate'>Rytin - Blocknote (Notebook Manager)</div>
+                  <p className="text-neutral-600 dark:text-neutral-300 text-sm">The Notebook Company is designed to provide users with a powerful yet user-friendly platform for note-taking and sharing.</p>
+
+                  <div className="flex items-center justify-start -space-x-2 mt-4">
+                  <div className="bg-black border border-zinc-700 rounded-full aspect-square h-10 p-2">
+                                <Image src="/tech/nextjs.svg" alt="HTML" width={30} height={30} />
+                            </div>
+                            <div className="bg-black border border-zinc-700 rounded-full aspect-square h-10 p-2">
+                                <Image src="/tech/mongodb.svg" alt="HTML" width={30} height={30} />
+                            </div>
+                            <div className="bg-black border border-zinc-700 rounded-full aspect-square h-10 p-2">
+                                <Image src="/tech/tailwindcss.svg" alt="HTML" width={30} height={30} />
+                            </div>
+                            <div className="bg-black border border-zinc-700 rounded-full aspect-square h-10 p-2">
+                                <Image src="/tech/clerk.png" alt="HTML" width={30} height={30} />
+                            </div>
+
+                  </div>
+                </div>
+              </div>
+            </Link>
 
 
           </div>
