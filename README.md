@@ -8,7 +8,6 @@ I'm a Computer Science Engineering student at MIT World Peace University, gradua
 - 🏆 Represented team at **European Hyperloop Week 2024** (Zurich, Switzerland) and **2025** (Groningen, Netherlands)
 - 💻 I enjoy low-level systems programming, building desktop applications, and creating full-stack web apps
 - 🌱 Currently exploring embedded systems, computer graphics, and AI
-- 🎯 GPA: 8.14/10.0
 - 🗣️ Languages: English (Fluent), Hindi (Native)
 
 ## 🛠️ Tech Stack
