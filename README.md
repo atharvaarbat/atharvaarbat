@@ -82,7 +82,7 @@ A 32-bit x86 operating system built from scratch with ~2000 lines of code. Runs 
 - Basic round-robin scheduler
 - System call interface
 
-### [XORCrypt - File Encryption Tool](https://github.com/atharvaarbat/xorcrypt)
+### [XORCrypt - File Encryption Tool](https://github.com/atharvaarbat/xor-encryptor)
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 
 Lightweight file encryption/decryption tool using XOR cipher with 256-bit key generation.
@@ -93,7 +93,7 @@ Lightweight file encryption/decryption tool using XOR cipher with 256-bit key ge
 - Fast encryption with timing metrics
 - Clean, readable C code
 
-### [Raytracer Engine](https://github.com/atharvaarbat/raytracer)
+### [Raytracer Engine](https://github.com/atharvaarbat/raytracer-engine-in-c)
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![SDL2](https://img.shields.io/badge/SDL2-blue?style=flat-square)
 
@@ -118,7 +118,7 @@ Full-stack gym management platform sold to 2 gyms in India.
 - Diet plans & workout tracking
 - Revenue analytics dashboard
 
-### [Track Matching System](https://github.com/atharvaarbat/track-matching)
+### [Track Matching System](https://github.com/HindustanDefenceTechnologiesLimited/tracking-engine)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
 AI-powered matching engine for Army intelligence to identify tracks using natural language input.
@@ -130,7 +130,7 @@ AI-powered matching engine for Army intelligence to identify tracks using natura
 - Deterministic rule-based matching
 - GPU acceleration support
 
-### [Custom Shell](https://github.com/atharvaarbat/custom-shell)
+### [Custom Shell](https://github.com/atharvaarbat/arbShell)
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 
 Unix-like shell implementation with command execution and process management.
