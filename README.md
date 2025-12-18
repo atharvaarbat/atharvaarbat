@@ -2,15 +2,15 @@
 
 I'm a Computer Science Engineering student at MIT World Peace University, graduating in May 2027. I love building things from scratch - whether it's operating systems, encryption tools, or real-time control systems for Hyperloop pods.
 
-## 🚀 About Me
+##  About Me
 
-- 🔭 Former **Navigation and Control Lead** at Vegapod Hyperloop, where I led a team of 9 engineers
-- 🏆 Represented team at **European Hyperloop Week 2024** (Zurich, Switzerland) and **2025** (Groningen, Netherlands)
-- 💻 I enjoy low-level systems programming, building desktop applications, and creating full-stack web apps
-- 🌱 Currently exploring embedded systems, computer graphics, and AI
-- 🗣️ Languages: English (Fluent), Hindi (Native)
+-  Former **Navigation and Control Lead** at Vegapod Hyperloop, where I led a team of 9 engineers
+-  Represented team at **European Hyperloop Week 2024** (Zurich, Switzerland) and **2025** (Groningen, Netherlands)
+-  I enjoy low-level systems programming, building desktop applications, and creating full-stack web apps
+-  Currently exploring embedded systems, computer graphics, and AI
+-  Languages: English (Fluent), Hindi (Native)
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Languages
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
@@ -49,7 +49,7 @@ I'm a Computer Science Engineering student at MIT World Peace University, gradua
 - Embedded Systems & IoT
 - Computer Graphics & Raytracing
 
-## 💼 Work Experience
+##  Work Experience
 
 ### 🚄 Navigation and Control Lead | Vegapod Hyperloop
 *August 2023 – August 2025 | Pune, India*
@@ -153,10 +153,6 @@ Unix-like shell implementation with command execution and process management.
 
 ## 📫 Let's Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/atharvaarbat)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arbatatharva130@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/atharvaarbat)
-
----
-
-⭐️ From [atharvaarbat](https://github.com/atharvaarbat)
