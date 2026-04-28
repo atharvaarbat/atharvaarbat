@@ -145,12 +145,6 @@ Unix-like shell implementation with command execution and process management.
 - **Terminal Image Renderer** - Converts images to colorized ASCII art (C, stb_image)
 - **JETANK Robot** - AI-powered robot using NVIDIA Jetson Nano
 
-## 📊 GitHub Stats
-
-![Atharva's GitHub Stats](https://github-readme-stats.vercel.app/api?username=atharvaarbat&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=atharvaarbat&layout=compact&theme=radical)
-
 ## 📫 Let's Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/atharvaarbat)
