@@ -31,8 +31,10 @@ CS undergrad at MIT-WPU (graduating May 2027), building close to the metal — c
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
 ---
@@ -54,6 +56,12 @@ CS undergrad at MIT-WPU (graduating May 2027), building close to the metal — c
 ---
 
 ## Projects
+
+### [Auth4Agent](https://github.com/atharvaarbat/auth4agent) — Decentralized Identity & Auth for AI Agents `Go · Ed25519 · JWT`
+
+Open-source, machine-native authentication protocol for autonomous agents · DID generation + Ed25519 keypair management + **challenge-response proof system where private keys never leave the agent** — eliminating static API key risks · scoped JWT issuance with JWKS support, replay attack protection (nonce-bound + expiration-bound challenges), and offline token verification · operator-controlled authorization with deny-by-default permission policy · full CLI (Cobra): `init`, `register`, `verify-operator`, `issue`, `revoke`, `whoami` + companion auth server with DNS-based domain verification
+
+---
 
 ### [ConcurrentKV](https://github.com/atharvaarbat/concurrentkv) — Multi-threaded Key-Value Store `Go`
 
