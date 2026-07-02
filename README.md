@@ -57,13 +57,13 @@ CS undergrad at MIT-WPU (graduating May 2027), building close to the metal — c
 
 ## Projects
 
-### [Auth4Agent](https://github.com/atharvaarbat/auth4agent) — Decentralized Identity & Auth for AI Agents `Go · Ed25519 · JWT`
+### [Auth4Agent](https://github.com/auth4agents/cli) — Decentralized Identity & Auth for AI Agents `Go · Ed25519 · JWT`
 
 Open-source, machine-native authentication protocol for autonomous agents · DID generation + Ed25519 keypair management + **challenge-response proof system where private keys never leave the agent** — eliminating static API key risks · scoped JWT issuance with JWKS support, replay attack protection (nonce-bound + expiration-bound challenges), and offline token verification · operator-controlled authorization with deny-by-default permission policy · full CLI (Cobra): `init`, `register`, `verify-operator`, `issue`, `revoke`, `whoami` + companion auth server with DNS-based domain verification
 
 ---
 
-### [ConcurrentKV](https://github.com/atharvaarbat/concurrentkv) — Multi-threaded Key-Value Store `Go`
+### [ConcurrentKV](https://github.com/atharvaarbat/concurrent-kv-go) — Multi-threaded Key-Value Store `Go`
 
 ~**49,000 ops/sec** · GET/SET/DEL/EXPIRE over a custom binary TCP protocol · thread pool (8 workers) with a **lock-free MPSC queue** · O(1) LRU eviction (doubly linked list + hash map) · WAL-based crash recovery · benchmarked directly against Redis via `redis-benchmark`
 
@@ -75,13 +75,13 @@ Bootable OS running on real hardware and QEMU · multiboot-compliant bootloader 
 
 ---
 
-### [Huffman Compression Engine](https://github.com/atharvaarbat/huffman) `C`
+### [Huffman Compression Engine](https://github.com/atharvaarbat/huffman-compressor) `C`
 
 **42% average compression ratio** on text at **~180 MB/s** · min-heap priority queue built from scratch · canonical Huffman encoding for deterministic serialization · handles arbitrary binary files with correct EOF padding · O(n log n) encode / O(n) decode · benchmarked vs. gzip
 
 ---
 
-### [LLM Code Review Agent](https://github.com/atharvaarbat/llm-code-review) `Python`
+### [LLM Code Review Agent](https://github.com/atharvaarbat/llm-code-review-agent) `Python`
 
 Agentic CLI: feeds `git diff` to an LLM → structured JSON reviews `{ severity, line_range, issue, fix }` across all languages · hunk-level context chunking cuts token consumption ~35% vs. naive full-file prompting · retry + exponential backoff · **~1.8s p95** on diffs ≤ 500 LOC
 
@@ -102,8 +102,7 @@ Full-stack gym management platform — sold to and running at **2 gyms in India*
 | [Raytracer Engine](https://github.com/atharvaarbat/raytracer-engine-in-c) | C, SDL2 | 2D real-time raytracing; ray-circle intersection, interactive light source, shadow simulation |
 | [Custom Shell](https://github.com/atharvaarbat/arbShell) | C | Unix-like shell with `fork()`/`execvp()`, command parser, built-in command support |
 | [XORCrypt](https://github.com/atharvaarbat/xor-encryptor) | C | Lightweight file encryption/decryption with 256-bit XOR key generation; works on any file type |
-| ZeroGrid | Next.js, TypeScript | Mini Power BI clone for data visualization |
-| Terminal Image Renderer | C, stb_image | Converts images to colorized ASCII art in the terminal |
+| [Terminal Image Renderer](https://github.com/atharvaarbat/image-in-terminal) | C, stb_image | Converts images to colorized ASCII art in the terminal |
 
 </details>
 
