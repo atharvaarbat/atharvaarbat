@@ -110,8 +110,8 @@ Full-stack gym management platform — sold to and running at **2 gyms in India*
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=atharvaarbat&show_icons=true&theme=github_dark&hide_border=true&count_private=true)
-&nbsp;&nbsp;
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=atharvaarbat&layout=compact&theme=github_dark&hide_border=true)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/atharvaarbat)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arbatatharva130@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/atharvaarbat)
 
 </div>
