@@ -57,6 +57,12 @@ CS undergrad at MIT-WPU (graduating May 2027), building close to the metal — c
 
 ## Projects
 
+### [SaaS Auth Template](https://github.com/atharvaarbat/next-auth) - A production-ready authentication template for SaaS
+
+A production-ready authentication starter for SaaS apps built with Next.js, Prisma, OAuth, and passkeys.
+
+---
+
 ### [Auth4Agent](https://github.com/auth4agents/cli) — Decentralized Identity & Auth for AI Agents `Go · Ed25519 · JWT`
 
 Open-source, machine-native authentication protocol for autonomous agents · DID generation + Ed25519 keypair management + **challenge-response proof system where private keys never leave the agent** — eliminating static API key risks · scoped JWT issuance with JWKS support, replay attack protection (nonce-bound + expiration-bound challenges), and offline token verification · operator-controlled authorization with deny-by-default permission policy · full CLI (Cobra): `init`, `register`, `verify-operator`, `issue`, `revoke`, `whoami` + companion auth server with DNS-based domain verification
