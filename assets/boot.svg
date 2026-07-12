@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="840" height="452" viewBox="0 0 840 452" role="img" aria-label="Animated kernel boot log. Highlights: hyperloop MVCU online at 11 ms end-to-end latency, ConcurrentKV at 49,000 ops per second, ARBOS x86 kernel booted on real hardware, OVRT orchestrator spawned 6 AI agents, ops platform shipped to 150+ employees, graduation target May 2027, listening for opportunities on port hire.">
+  <title>ATHARVA OS boot sequence</title>
+  <defs>
+    <radialGradient id="vig" cx="50%" cy="50%" r="75%">
+      <stop offset="60%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity=".38"/>
+    </radialGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000" opacity=".16"/>
+    </pattern>
+    <pattern id="cells" x="200" width="23.33" height="12" patternUnits="userSpaceOnUse">
+      <rect x="21.33" width="2" height="12" fill="#0a0f0c"/>
+    </pattern>
+  </defs>
+  <style>
+    text{font-family:ui-monospace,'Cascadia Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace;font-size:13px;fill:#b8e6c4}
+    .ts{fill:#4a6152}.hi{fill:#4afa7b}.dim{fill:#5c7a66}.amb{fill:#ffb000}.wht{fill:#d9ffe6}
+    .r{opacity:0;animation:on .01s steps(1) forwards}
+    @keyframes on{to{opacity:1}}
+    .t0{animation-delay:.15s}.t1{animation-delay:.4s}.t2{animation-delay:.52s}
+    .t3{animation-delay:1.15s}.t4{animation-delay:1.27s}.t5{animation-delay:1.39s}
+    .t6{animation-delay:2.1s}.t7{animation-delay:2.7s}
+    .t8{animation-delay:3.3s}.t9{animation-delay:3.42s}
+    .t10{animation-delay:4s}.t11{animation-delay:4.5s}
+    .t12{animation-delay:5s}.t13{animation-delay:6.55s}.t14{animation-delay:6.67s}
+    .t15{animation-delay:7.3s}.t16{animation-delay:6.45s}
+    .bar{transform:scaleX(0);transform-box:fill-box;transform-origin:left center;animation:load 1.3s steps(24,end) 5.05s forwards}
+    @keyframes load{to{transform:scaleX(1)}}
+    .cur{animation:blink 1.06s steps(1,end) 7.8s infinite}
+    @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-delay:0s!important;animation-iteration-count:1!important}}
+  </style>
+  <rect width="840" height="452" rx="16" fill="#101612"/>
+  <rect x="6" y="6" width="828" height="440" rx="10" fill="#0a0f0c" stroke="#1d2a22"/>
+  <circle cx="30" cy="26" r="6" fill="#ff5f56"/><circle cx="52" cy="26" r="6" fill="#ffbd2e"/><circle cx="74" cy="26" r="6" fill="#27c93f"/>
+  <text x="420" y="30" text-anchor="middle" class="dim" font-size="12">tty1 — dmesg --follow</text>
+  <line x1="6" y1="44" x2="834" y2="44" stroke="#1d2a22"/>
+
+  <text class="r t0" x="32" y="70"><tspan class="hi">$</tspan><tspan class="wht"> dmesg --follow</tspan></text>
+  <text class="r t1" x="32" y="93"><tspan class="ts">[    0.000000]</tspan> atharva 22.0.0-btech booting — MIT-WPU/Pune · 1 human · 3 identities</text>
+  <text class="r t2" x="32" y="116"><tspan class="ts">[    0.000004]</tspan> cmdline: root=/dev/pune grad=<tspan class="hi">2027-05</tspan> cgpa=<tspan class="hi">8.25</tspan> backlogs=<tspan class="hi">0</tspan></text>
+  <text class="r t3" x="32" y="139"><tspan class="ts">[    0.011000]</tspan> vegapod: MVCU up — C++ · 4 threads · <tspan class="hi">11 ms E2E</tspan>, live competition</text>
+  <text class="r t4" x="32" y="162"><tspan class="ts">[    0.011002]</tspan> vegapod: UART+TCP protocol — heartbeat · CRC16 · auto-reconnect</text>
+  <text class="r t5" x="32" y="185"><tspan class="ts">[    0.011007]</tspan> vegapod: EHW Zurich '24 → Groningen '25 — <tspan class="hi">8th/16</tspan> · crew of 9</text>
+  <text class="r t6" x="32" y="208"><tspan class="ts">[    0.049000]</tspan> kv: ConcurrentKV — <tspan class="hi">49,000 ops/sec</tspan> · lock-free MPSC · WAL recovery</text>
+  <text class="r t7" x="32" y="231"><tspan class="ts">[    1.337000]</tspan> arbos: x86 kernel booted on <tspan class="hi" font-weight="700">REAL HARDWARE</tspan> (QEMU is for rehearsals)</text>
+  <text class="r t8" x="32" y="254"><tspan class="ts">[    2.026000]</tspan> agents: OVRT orchestrator — <tspan class="hi">6 agents</tspan> · BullMQ · LangFuse · HMAC</text>
+  <text class="r t9" x="32" y="277"><tspan class="ts">[    2.026001]</tspan> agents: auth4agent — Ed25519 DIDs · keys never leave the agent</text>
+  <text class="r t10" x="32" y="300"><tspan class="ts">[    3.100000]</tspan> web: ops platform → <tspan class="hi">150+ employees</tspan> · Lighthouse 54 → 91</text>
+  <text class="r t11" x="32" y="323"><tspan class="ts">[    4.200000]</tspan> sched: priority inversion — semester_exams preempted kernel work</text>
+  <text class="r t12" x="32" y="346"><tspan class="dim">loading userspace</tspan></text>
+  <g class="r t12">
+    <rect x="200" y="336" width="560" height="12" fill="#10201a" stroke="#23392c"/>
+    <rect class="bar" x="200" y="336" width="560" height="12" fill="#4afa7b"/>
+    <rect x="200" y="336" width="560" height="12" fill="url(#cells)"/>
+  </g>
+  <text class="r t16" x="770" y="346"><tspan class="hi">100%</tspan></text>
+  <text class="r t13" x="32" y="369"><tspan class="ts">[    5.000000]</tspan> init: reached <tspan class="hi">Graduation.target</tspan> — ETA May 2027 · backlogs: none</text>
+  <text class="r t14" x="32" y="392"><tspan class="ts">[    5.000001]</tspan> init: listening for opportunities on <tspan class="amb">:hire</tspan></text>
+  <text class="r t15" x="32" y="424"><tspan class="wht">atharva login: you</tspan><tspan class="cur hi">▊</tspan></text>
+
+  <text class="r t3" x="808" y="139" text-anchor="end"><tspan class="hi">[  OK  ]</tspan></text>
+  <text class="r t4" x="808" y="162" text-anchor="end"><tspan class="hi">[  OK  ]</tspan></text>
+  <text class="r t5" x="808" y="185" text-anchor="end"><tspan class="hi">[  OK  ]</tspan></text>
+  <text class="r t6" x="808" y="208" text-anchor="end"><tspan class="hi">[  OK  ]</tspan></text>
+  <text class="r t7" x="808" y="231" text-anchor="end"><tspan class="hi">[  OK  ]</tspan></text>
+  <text class="r t8" x="808" y="254" text-anchor="end"><tspan class="hi">[  OK  ]</tspan></text>
+  <text class="r t9" x="808" y="277" text-anchor="end"><tspan class="hi">[  OK  ]</tspan></text>
+  <text class="r t10" x="808" y="300" text-anchor="end"><tspan class="hi">[  OK  ]</tspan></text>
+  <text class="r t11" x="808" y="323" text-anchor="end"><tspan class="amb">[ WARN ]</tspan></text>
+
+  <rect x="6" y="6" width="828" height="440" rx="10" fill="url(#scan)" opacity=".5"/>
+  <rect x="6" y="6" width="828" height="440" rx="10" fill="url(#vig)"/>
+</svg>

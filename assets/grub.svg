@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="840" height="252" viewBox="0 0 840 252" role="img" aria-label="Animated GRUB boot menu cycling through three entries: atharva-systems, atharva-ai-agent, atharva-fullstack, plus memtest86+. Caption: all three entries boot the same person.">
+  <title>GRUB menu — three kernels, one person</title>
+  <defs>
+    <radialGradient id="vig" cx="50%" cy="50%" r="75%">
+      <stop offset="60%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity=".38"/>
+    </radialGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000" opacity=".16"/>
+    </pattern>
+  </defs>
+  <style>
+    text{font-family:ui-monospace,'Cascadia Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace;font-size:13px}
+    .hl{animation:hl 12s linear infinite}
+    @keyframes hl{0%,24.99%{transform:translateY(0)}25%,49.99%{transform:translateY(26px)}50%,74.99%{transform:translateY(52px)}75%,91.99%{transform:translateY(78px)}92%,100%{transform:translateY(0)}}
+    .e1{animation:t1 12s linear infinite}
+    @keyframes t1{0%,24.99%{fill:#06120a}25%,91.99%{fill:#9fd8b0}92%,100%{fill:#06120a}}
+    .e2{animation:t2 12s linear infinite}
+    @keyframes t2{0%,24.99%{fill:#9fd8b0}25%,49.99%{fill:#06120a}50%,100%{fill:#9fd8b0}}
+    .e3{animation:t3 12s linear infinite}
+    @keyframes t3{0%,49.99%{fill:#9fd8b0}50%,74.99%{fill:#06120a}75%,100%{fill:#9fd8b0}}
+    .e4{animation:t4 12s linear infinite}
+    @keyframes t4{0%,74.99%{fill:#9fd8b0}75%,91.99%{fill:#06120a}92%,100%{fill:#9fd8b0}}
+    .d1{animation:dots 1.8s steps(1,end) infinite}
+    .d2{animation:dots 1.8s steps(1,end) .3s infinite;opacity:0}
+    .d3{animation:dots 1.8s steps(1,end) .6s infinite;opacity:0}
+    @keyframes dots{0%{opacity:0}33%,90%{opacity:1}100%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-iteration-count:1!important}}
+  </style>
+  <rect width="840" height="252" rx="16" fill="#101612"/>
+  <rect x="6" y="6" width="828" height="240" rx="10" fill="#0a0f0c" stroke="#1d2a22"/>
+  <text x="420" y="36" text-anchor="middle" fill="#9fd8b0">ATHARVA ARBAT — GNU GRUB  version 2.06</text>
+  <rect x="60" y="54" width="720" height="130" fill="none" stroke="#35563f"/>
+  <rect class="hl" x="64" y="59" width="712" height="26" fill="#4afa7b"/>
+  <text class="e1" x="76" y="77">*atharva-systems.img      <tspan>C · C++ · Go · x86 asm · kernels &amp; KV stores</tspan></text>
+  <text class="e2" x="76" y="103"> atharva-ai-agent.img     <tspan>TypeScript · Python · LLM pipelines &amp; agents</tspan></text>
+  <text class="e3" x="76" y="129"> atharva-fullstack.img    <tspan>Next.js · Node · Postgres · ship-it mode</tspan></text>
+  <text class="e4" x="76" y="155"> memtest86+               <tspan>(LeetCode: 250+ blocks tested · 0 bad)</tspan></text>
+  <text x="80" y="205" fill="#5c7a66" font-size="12">Use the ↑ and ↓ keys to select which entry is highlighted. Press Enter to boot.</text>
+  <text x="80" y="227" fill="#ffb000" font-size="13">All three entries boot the same person.</text>
+  <text x="760" y="227" text-anchor="end" fill="#5c7a66" font-size="12">booting<tspan class="d1">.</tspan><tspan class="d2">.</tspan><tspan class="d3">.</tspan></text>
+  <rect x="6" y="6" width="828" height="240" rx="10" fill="url(#scan)" opacity=".5"/>
+  <rect x="6" y="6" width="828" height="240" rx="10" fill="url(#vig)"/>
+</svg>

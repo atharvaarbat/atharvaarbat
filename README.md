@@ -1,55 +1,17 @@
 <div align="center">
 
-# Atharva Arbat
+<img src="assets/header.svg" width="100%" alt="CRT monitor powering on: ATHARVA ARBAT — systems programmer × AI agent engineer. Hyperloop firmware at 11 ms, x86 kernel on real hardware, 49k ops/sec KV store, 6-agent orchestra." />
 
-**Systems programmer who builds AI agents.**
-Hyperloop control firmware at 11 ms E2E · a bootable x86 OS · a 49k ops/sec KV store · multi-agent orchestration in production.
-
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=17&duration=2600&pause=900&color=00FF41&background=00000000&center=true&vCenter=true&width=620&lines=%24+whoami+%E2%86%92+systems+programmer+who+builds+AI+agents;%24+uname+-m+%E2%86%92+x86%2C+hyperloops%2C+LLM+pipelines;%24+uptime+%E2%86%92+shipping+since+2023+%C2%B7+graduating+May+2027" alt="Animated terminal typing out: whoami — systems programmer who builds AI agents; uname -m — x86, hyperloops, LLM pipelines; uptime — shipping since 2023, graduating May 2027" />
+**Systems programmer who builds AI agents.** Hyperloop control firmware at 11 ms E2E · a bootable x86 OS · a 49k ops/sec KV store · multi-agent orchestration in production.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-atharvaarbat-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/atharvaarbat)
 [![Email](https://img.shields.io/badge/Email-arbatatharva130%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:arbatatharva130@gmail.com)
 
 </div>
 
-```text
-                 ATHARVA ARBAT — GNU GRUB  version 2.06
+<img src="assets/grub.svg" width="100%" alt="Animated GRUB menu cycling between three boot entries — atharva-systems, atharva-ai-agent, atharva-fullstack — plus memtest86+ (LeetCode: 250+ blocks tested, 0 bad). All three entries boot the same person." />
 
- ┌──────────────────────────────────────────────────────────────────────┐
- │*atharva-systems.img      C · C++ · Go · x86 asm · kernels & KV stores│
- │ atharva-ai-agent.img     TypeScript · Python · LLM pipelines & agents│
- │ atharva-fullstack.img    Next.js · Node · Postgres · ship-it mode    │
- │ memtest86+               LeetCode — 250+ blocks tested, 0 bad        │
- │                                                                      │
- │   Use the ↑ and ↓ keys to select which entry is highlighted.         │
- │   Press Enter to boot the selected OS.                               │
- │   All three entries boot the same person.                            │
- └──────────────────────────────────────────────────────────────────────┘
-```
-
-```text
-Booting `atharva-systems.img' ...
-
-[    0.000000] atharva version 22.0.0-btech (b.tech@mit-wpu) #1 SMP Pune, India
-[    0.000001] Command line: root=/dev/pune rw grad=2027-05 cgpa=8.25 backlogs=0
-[    0.011000] vegapod: MVCU online — C++, 4 threads, 11 ms avg E2E, live competition
-[    0.011001] vegapod: wire protocol UART+TCP — heartbeat, CRC16, auto-reconnect
-[    0.011002] vegapod: EHW Zurich '24 → Groningen '25 — placed 8th/16 · led 9 engineers
-[    0.049000] kv: ConcurrentKV up — 49,000 ops/sec, lock-free MPSC queue, WAL recovery
-[    1.337000] arbos: 32-bit x86 kernel booted on real hardware ✓ (QEMU too, but that's easy)
-[    2.026000] agents: OVRT orchestrator spawned 6 AI agents — BullMQ · LangFuse · HMAC proxy
-[    2.026001] agents: auth4agent loaded — Ed25519 DIDs; private keys never leave the agent
-[    3.100000] web: internal ops platform shipped to 150+ employees — Lighthouse 54 → 91
-[    4.200000] sched: round-robin between kernels, agents, and semester exams
-[    5.000000] init: reached Graduation.target — ETA May 2027, no active backlogs
-[    5.000001] init: listening for opportunities on port :hire
-
-atharva login: you
-Password: ********
-Last login: just now, from github.com
-
-Welcome to ATHARVA OS — everything below is human-readable.
-```
+<img src="assets/boot.svg" width="100%" alt="Kernel boot log typing itself out: vegapod MVCU online at 11 ms E2E, ConcurrentKV at 49,000 ops/sec, ARBOS booted on real hardware, OVRT spawned 6 AI agents, ops platform shipped to 150+ employees, init reached Graduation.target ETA May 2027, listening for opportunities on port :hire." />
 
 ## `$ cat /proc/self`
 
@@ -58,6 +20,8 @@ CS undergrad at **MIT-WPU, Pune** (B.Tech CSE, May 2027 — CGPA 8.25). I like t
 The three GRUB entries above aren't a joke — they're my three actual resumes. Same kernel underneath.
 
 **Currently:** open to internships and interesting systems / AI-agent work.
+
+<img src="assets/ticker.svg" width="100%" alt="Scrolling ticker: 11 ms E2E under live competition · 49,000 ops/sec KV store · x86 kernel on real hardware · 6 AI agents in production · 8th/16 at European Hyperloop Week · 150+ users shipped · 2 paying gym clients · Ed25519 keys never leave the agent · 250+ LeetCode · Lighthouse 54→91 · graduating May 2027" />
 
 ## `$ systemctl status career`
 
@@ -76,6 +40,8 @@ The three GRUB entries above aren't a joke — they're my three actual resumes. 
 - Architected **MVCU** (Master Vehicle Control Unit) in C++ — multi-process, multi-threaded TCP/UART system managing real-time pod state across 4 threads at **11 ms average E2E latency** under live competition
 - Designed a custom **binary wire protocol** over UART/TCP — heartbeat, CRC16 error detection, auto-reconnect; improved pod stability **40% YoY**
 - Led **9 engineers**; team placed **8th / 16 globally**; owned the technical roadmap and signed off on every C++ code review
+
+<img src="assets/telemetry.svg" width="100%" alt="Live MVCU telemetry panel: pod accelerating through the tube from Zurich to Groningen, latency trace holding at 11 ms, subsystem LEDs NAV/CTRL/COMMS/PWR/SAFETY pulsing green. EHW 2024 Zurich and 2025 Groningen — placed 8th of 16 with a crew of 9." />
 
 ### ● byteswrite.service — Frontend Developer Intern
 
@@ -137,7 +103,14 @@ Full-stack platform **sold to and running at 2 gyms in India**: member & attenda
 
 </details>
 
-## `$ lspci`
+## `$ htop`
+
+<img src="assets/htop.svg" width="100%" alt="htop-style monitor: CPU cores are Atharva's languages — C/C++ 88%, Go 76%, TypeScript 81%, Python 72%, x86 asm 64%, Next.js 78%, Postgres 69%, Docker 70% — bars fluctuating live. Process table: arbos on real hardware, concurrent_kv with 8 lock-free workers, auth4agent deny-by-default, vegapod_mvcu at 11 ms budget, llm_review, gym_mgmt with 2 paying tenants." />
+
+<details>
+<summary><code>$ lspci -vv — full device tree</code></summary>
+
+<br>
 
 **00:01.0 — Languages**
 
@@ -177,6 +150,8 @@ Full-stack platform **sold to and running at 2 gyms in India**: member & attenda
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+
+</details>
 
 ## `$ tail -f /var/log/github`
 
